@@ -1,0 +1,54 @@
+.wrap {
+	font-size: 25px;
+	text-align: center;
+}
+.butn {
+	z-index: 122;
+	width: 50px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	color: #fff;
+	font-size: 100px;
+	text-align: center;
+	outline: none;	
+	opacity: 0.5;
+	transition: opacity 450ms ease-out;
+}
+.butn_p {
+	position: relative;
+	left: 50px;
+	text-shadow: 0px 4px #000;
+}
+.butn_n {
+	position: relative;
+	right: 50px;
+	text-shadow: 0px 4px #000;
+}
+.butn:hover {
+	opacity: 1;
+}
+.scroller {
+	flex: 1;
+	overflow: hidden;
+}
+.items {
+	list-style-type: none;
+	display: flex;
+  padding: 0;
+  white-space: nowrap;
+  transition: transform 1s ease-in-out;
+}
+.item {
+  flex: 1 0 100%;
+  border-radius: 30px;
+  height: 45vh;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 980px) {
+	.item {
+		height: 65vw;
+	}
+}	
