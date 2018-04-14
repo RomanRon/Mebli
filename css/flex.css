@@ -116,7 +116,6 @@ header,
 	flex-wrap: wrap;
 }
 .section4 {
-	width: 100%;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -217,3 +216,12 @@ header,
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
+/*.fragment_how>div {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}*/

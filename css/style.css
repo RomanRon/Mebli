@@ -206,7 +206,8 @@ ol>li {
 .section8 img {
 	width: 100%;
 }
-.section8>.cont>div>h1 {
+.section8>.cont>h1 {
+	width: 100%;
 	margin-top: 1vw;
 	margin-bottom: 3vw;
 }
@@ -217,11 +218,12 @@ ol>li {
 }
 .fragment {
 	width: 100%;
-	max-width: 420px;
+	max-width: 358px;
 	min-width: 310px;
 }
 .fragment>img {
 	width: 100%;
+	height: 234px;
 }
 iframe {
 	width: 100%;
@@ -241,72 +243,20 @@ div.image_cont>div>img {
 	margin-bottom: 1vw;
 	width: 100%;
 }
-@media (max-width: 1080px) {
-	.image_cont>div {
-		width: 100%;	
-	}
-	div.image_cont>div>img {
-		width: 164px;	
-	}
-	div.image_cont>div.c_tov>img {
-	width: 100%
-	}
-}
-@media (max-width: 990px) {
-	.form {
-		width: 100%;
-		max-width: 633px;
-	}
-}
-@media (max-width: 744px) {
-	.hr_2 {
-		display: inline-block;
-	}
-	.line_2 {
-		display: none;
-	}
-}
-@media (max-width: 475px) {
-	.hr_2 {
-		display: block;
-	}
-	.line_2 {
-		display: none;
-	}
-	.hr_1 {
-		display: block;
-	}
-	.line_1 {
-		display: none;
-	}
-	.section1 h3 {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-}
-						/* Timer Timer Timer Timer Timer */
 .timer_image {
 	width: 100%;
 	min-width: 320px;
 	max-width: 625px;
-	background-image: url(../img/timer.jpg);
-	background-position: center center; 
-	background-repeat: no-repeat;
-	background-size: 100% 100%; 
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: flex-end;
+	
 	-ms-align-items: center;
 	align-items: center;
 }
 .timer_act {
-	width: 320px;
+	width: 100%;
+	max-width: 340px;
 	height: 191px;
 	padding-right: 5px;
-	padding-right: 5px;
+	padding-left: 5px;
 	padding-bottom: 10px;
 	margin-bottom: 1vw;
 	margin-top: 1vw;
@@ -333,6 +283,80 @@ div.image_cont>div>img {
 .timer_act>.brown_text {
 	font-size: 16px;
 }
+.fragment_how {
+	width: 150px;
+}
+.fragment_how>img {
+	width: 100%;
+}
+@media (max-width: 1080px) {
+	.image_cont>div {
+		width: 100%;	
+	}
+	div.image_cont>div>img {
+		width: 160px;	
+	}
+	div.image_cont>div.c_tov>img {
+	width: 100%
+	}
+}
+@media (max-width: 990px) {
+	.form {
+		width: 100%;
+		max-width: 633px;
+	}
+}
+@media (max-width: 744px) {
+	.hr_2 {
+		display: inline-block;
+	}
+	.line_2 {
+		display: none;
+	}
+}
+@media (min-width: 680px) {
+	.timer_image {
+		background-image: url(../img/timer.jpg);
+	background-position: center center; 
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	}
+}
+@media (max-width: 679px) {
+	.timer_act {
+		width: 100%;
+		max-width: 679px;
+		height: 191px;
+		border-radius: 15px;
+	}
+
+}
+@media (max-width: 475px) {
+	.hr_2 {
+		display: block;
+	}
+	.line_2 {
+		display: none;
+	}
+	.hr_1 {
+		display: block;
+	}
+	.line_1 {
+		display: none;
+	}
+	.section1 h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+						/* Timer Timer Timer Timer Timer */
+
 
 #CDT {
 	display: -webkit-flex;
@@ -414,8 +438,8 @@ div.image_cont>div>img {
    text-align: center;
    width: 100%;
 }
-.morda>img {
-	width: 102px;
+.fragment>.face img {
+	width: 109px;
 	position: relative;
-	top: 120px;
+	top: 130px;
 }

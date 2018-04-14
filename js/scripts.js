@@ -32,7 +32,7 @@ function CountdownTimer(elm,tl,mes){
 }
 CountdownTimer.prototype={
  initialize:function(elm,tl,mes) {
-  this.elem = document.getElementsByClassName(elm);
+  this.elem = document.getElementById(elm);;
   this.tl = tl;
   this.mes = mes;
  },countDown:function(){
