@@ -27,7 +27,7 @@ window.addEventListener('resize', setTransform);﻿
         // Timer Timer Timer Timer Timer Timer Timer Timer Timer
 
 var a = new Date(); // Це потрібно щоб вирахувати скільки залишилося часу
-var curtime = new Date('2018/04/17 18:00:00'); // Сюди вводити дату :)
+var curtime = new Date('2019/04/17 18:00:00'); // Сюди вводити дату :)
 var time = curtime.getTime()/1000-a.getTime()/1000; // тут ми беремо нашу дату і дату 1970 року здається і віднімаємо
                                                     // але перед тим ділими на 1000 щоб получити секунди
                                                     // У результаті получимо час в секундан який нам потрібно

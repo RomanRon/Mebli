@@ -247,7 +247,6 @@ div.image_cont>div>img {
 	width: 100%;
 	min-width: 320px;
 	max-width: 625px;
-	
 	-ms-align-items: center;
 	align-items: center;
 }
@@ -277,8 +276,7 @@ div.image_cont>div>img {
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	right: 2px;
-	position: relative;
+
 }
 .timer_act>.brown_text {
 	font-size: 16px;
@@ -316,16 +314,16 @@ div.image_cont>div>img {
 }
 @media (min-width: 680px) {
 	.timer_image {
-		background-image: url(../img/timer.jpg);
-	background-position: center center; 
-	background-repeat: no-repeat;
-	background-size: 100% 100%; 
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: flex-end;
+		background-image: url(../img/banner.png);
+		background-position: center center; 
+		background-repeat: no-repeat;
+		background-size: 100% 100%; 
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: flex-end;
 	}
 }
 @media (max-width: 679px) {
@@ -441,5 +439,6 @@ div.image_cont>div>img {
 .fragment>.face img {
 	width: 109px;
 	position: relative;
-	top: 130px;
+	top: 135px;
+	right: 50px;
 }
